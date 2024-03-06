@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+  <main>
+    <section>
+      <img src="img/view-3d-man-using-laptop_23-2150709796.avif">
+    </section>
+    <section>
+      <form id="form">
+        <h4>Registration Form</h4>
+        <div class="form-wrapper">
+          <input type="text" placeholder="TITLE" id="title" required>
+        </div>
+        <div class="form-wrapper">
+          <input type="url" placeholder="URL" id="url" required>
+        </div>
+        <div class="form-wrapper">
+          <select name="category-i" id="category" required>
+            <option value="">SELECT A CATEGORY</option>
+            <option value="Personal Blog">Personal Blog</option>
+            <option value="Travel Blog">Travel Blog</option>
+            <option value="Food Blog">Food Blog</option>
+            <option value="Fashion Blog">Fashion Blog</option>
+            <option value="Lifestyle Blog">Lifestyle Blog</option>
+            <option value="Tech Blog">Tech Blog</option>
+          </select>
+        </div>
+        <div class="form-wrapper">
+          <input type="text" placeholder="CONTENT" id="content" required>
+        </div>
+        <div class="form-wrapper">
+          <input type="text" placeholder="NAME" id="name" required>
+        </div>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="data">
+
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
